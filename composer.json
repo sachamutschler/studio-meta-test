@@ -1,0 +1,14 @@
+{
+  "name": "studio-meta/login",
+  "description": "A login page with PHP, Tailwind and Twig",
+  "type": "project",
+  "require": {
+    "php": "^8.3",
+    "twig/twig": "^3.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "mkdir -p /var/www/html/cache && chmod -R 777 /var/www/html/cache"
+    ]
+  }
+}

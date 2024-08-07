@@ -1,0 +1,32 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files and temporary files
+/logs
+/tmp
+
+# Ignore any cache data
+/cache
+
+# Ignore Tailwind CSS build artifacts
+/public/css/tailwind.css
+/public/css/tailwind.css.map
+
+# Ignore Docker related files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+*.iml
+.vscode/
+
+# Ignore node_modules if using Node.js
+/node_modules/
